@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+main {   
+    height: 100vh;
+    
+    background:
+      linear-gradient(320deg, transparent, rgb(134, 113, 130)),
+      url("https://picsum.photos/id/227/2000/2000");
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  
+	font-size: 38px;
+}
+
+  h1 {
+    padding-top: 120px;
+    color: white;
+    font-size: 40px;
+    line-height: 10vh;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 2px 2px rgb(27, 27, 27);
+    font-style: italic;
+  }
+
+  p {
+    line-height: 10vh;
+    color: white;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+  }
+
+  
+button {
+  background-color: white;
+  color: black;
+  width: 150px;
+  height: 40px;
+  margin-top: 50px;
+  border-radius: 4em;
+}
+
+
+button:hover {
+  background-color: rgb(63, 63, 63); 
+  color: white;
+}
+
+button:active {
+  background-color: rgb(90, 137, 143);
+  color: white;
+}
+
+
+/*Media Queries- larger font size on mobile*/
+@media (orientation: portrait) {
+  h1 { 
+    font-size: 60px; 
+  }
+  p {
+    font-size: 40px;
+  }
+}
